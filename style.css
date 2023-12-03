@@ -1,0 +1,25 @@
+html {
+  font-size: 62.5%;
+}
+@media screen and (min-width:769px) and (max-width:1440px) {
+  html {
+    font-size: 0.625vw;
+  }
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin: 0 auto;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin-right: 1.8rem;
+}
+.mv h1 {
+  font-size: 14rem;
+  line-height: 12.6rem;
+  font-family: 'Exo', sans-serif;
+}
